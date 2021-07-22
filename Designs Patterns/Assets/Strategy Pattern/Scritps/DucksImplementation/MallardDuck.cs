@@ -14,9 +14,9 @@ public class MallardDuck : DuckBase
 
     public void SetFlying()
     {
-        flyBehaiviour.Fly(rb);
-       
+        flyBehaiviour.Fly(rb);       
     }
+
     public override void Quack()
     {
         Debug.Log("Mallard Quack!");
